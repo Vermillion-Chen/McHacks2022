@@ -1,18 +1,18 @@
 <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg" class='train'>
 <g id="Frame 1">
 <rect width="150" height="50" fill="none"/>
-<g id="Extra Car">
-<circle id="Wheel4" cx="12.7344" cy="37.6836" r="9.09603" fill="black"/>
-<circle id="Wheel3" cx="45.4802" cy="37.6836" r="9.09603" fill="black"/>
-<rect id="PassengerBody" y="13.3062" width="60.6402" height="24.0135" fill="black"/>
-<rect id="Link" x="60.6402" y="32.4685" width="8.24707" height="3.88097" fill="black"/>
+<g id="ExtraCar">
+<circle id="Wheel4" cx="12.7344" cy="37.6836" r="9.09603"/>
+<circle id="Wheel3" cx="45.4802" cy="37.6836" r="9.09603"/>
+<rect id="PassengerBody" y="13.3062" width="60.6402" height="24.0135"/>
+<rect id="Link" x="60.6402" y="32.4685" width="8.24707" height="3.88097"/>
 </g>
 <g id="Engine">
-<circle id="Wheel2" cx="80.9735" cy="37.7715" r="9.09446" fill="black"/>
-<circle id="Wheel1" cx="102.8" cy="37.7715" r="9.09446" fill="black"/>
-<rect id="Cabin" x="68.2412" y="2" width="41.7133" height="23.5243" fill="black"/>
-<path id="Snow Plow" d="M128.75 20.9165L146.287 38.196H111.212L128.75 20.9165Z" fill="black"/>
-<rect id="Body" x="68.2412" y="13.3984" width="60.6297" height="24.0094" fill="black"/>
+<circle id="Wheel2" cx="80.9735" cy="37.7715" r="9.09446"/>
+<circle id="Wheel1" cx="102.8" cy="37.7715" r="9.09446"/>
+<rect id="Cabin" x="68.2412" y="2" width="41.7133" height="23.5243"/>
+<path id="Snow Plow" d="M128.75 20.9165L146.287 38.196H111.212L128.75 20.9165Z"/>
+<rect id="Body" x="68.2412" y="13.3984" width="60.6297" height="24.0094"/>
 </g>
 </g>
 </svg>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Ubuntu&display=swap');
+
 body,
 html{
       margin: 0;
@@ -5,7 +7,9 @@ html{
       height: 100%;
       font-size: 36px;
       user-select: none;
+      font-family: 'Ubuntu', sans-serif;
 }
+
 header {
   text-align: center;
   margin: auto;
@@ -28,6 +32,7 @@ header {
 }
 .trainpath {
   margin: 5% 15% 0% 15%;
+  height: 4%;
   display: block;
   border-radius: 5%;
   background-color: rgba(255,255,255,0.25);
@@ -83,6 +88,23 @@ svg {
       transition: all .3s;
       z-index: 11;
   }
+  .timer {
+    position: fixed;
+    top: 5%;
+    right: 0px;
+    transform: translateX(-50%);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.7em;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    transition: all .3s;
+    z-index: 11;
+}
 
   .btn_works {
       left: 100px;
