@@ -97,24 +97,28 @@ svg {
 .train {
   width: 10%;
   height: auto;
-  animation: move-train 20s ease forwards;
   position: relative;
-}
-  @keyframes move-train {
-    
-    0% {
-      transform: translateX(-200%)
-    }
-    17.78%, 24.44% {
-      transform: translateX(0%);
-    }
-    42.22%, 48.89% {
-      transform: translateX(300%);
-    }
-    68.89%, 75.56% {
-      transform: translateX(600%);
-    }
-    100% {
-      transform: translateX(900%);
-    }
+  opacity: 0%;
   }
+.move{
+  animation: move-train 30s ease forwards;
+  opacity: 100%;
+  }
+
+@keyframes move-train {
+  0% {
+    transform: translateX(-200%)
+  }
+  17.78%, 24.44% {
+    transform: translateX(0%);
+  }
+  42.22%, 48.89% {
+    transform: translateX(300%);
+  }
+  68.89%, 75.56% {
+    transform: translateX(600%);
+  }
+  100% {
+    transform: translateX(900%);
+  }
+}

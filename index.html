@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trainr</title>
+    <title>Train Simulation Website</title>
     <link rel="stylesheet" href="styles.css">
     <script src='script.js'></script>
 </head>
@@ -146,7 +146,7 @@
         <div class='station'>Union</div>
     </section>
     <section class="trainpath">
-        <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg" class='train'>
+        <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg" class='train' id='train1'>
             <g id="Frame 1">
             <rect width="150" height="50" fill="none"/>
             <g id="Extra Car">
@@ -166,8 +166,8 @@
             </svg>            
             
     </section>
-    <div class='btn'>
+    <button onclick="traincascade()" class='btn'>
         Run 
-    </div>
+    </button>
 </body>
 </html>
